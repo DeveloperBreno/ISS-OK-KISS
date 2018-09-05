@@ -1,0 +1,229 @@
+﻿@media only screen and (max-width: 999999px) and (min-width: 1025px) {
+
+    body {
+        margin: 0px auto;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        position: relative;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+		
+		font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+
+
+.fixeddesktop{
+    position: fixed;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: #fff;
+
+}
+
+::selection {
+    background: #7030a0;
+    color: #fff;
+}
+
+body{
+    position: relative;
+    padding-top: 0px;   
+    -webkit-animation-name: bodyhehe; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+    animation-name: bodyhehe;
+    animation-duration: 0s;
+    transition: 0s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bodyhehe {
+    from { padding-top: 300px; opacity: 0;}
+    to { padding-top: 0px; opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes bodyhehe {
+   from { padding-top: 300px; opacity: 0;}
+    to { padding-top: 0px; opacity: 1;}
+}
+
+
+
+
+
+    .logo {
+        float: left;
+    }
+
+
+    .subcaixamenu {
+        width: 1025px;
+        margin: auto;
+    }
+
+    body > div > div > div > div.menu {
+        float: right;
+        margin-top: 8px;
+    }
+
+        body > div > div > div > div.menu > div {
+            float: left;
+            padding: 5px;
+        }
+
+
+            body > div > div > div > div.menu > div > a {
+                color: #7f7f7f;
+                font-size: 18px;
+                text-decoration: none;
+                padding: 5px;
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                min-width: 320px;
+                color: #7f7f7f;
+                
+            }
+
+
+    .li:hover a{
+        color: #7030a0;
+    }
+
+    .bordabaixa {
+        background-color: #7030a0;
+        width: 100%;
+        height: 5px;
+        float: left;
+    }
+
+
+    .icon_whatsapp {
+        position: fixed;
+        bottom: 10px;
+        right: 30px;
+        background-image: url(../ima/icon_whats.jpg);
+        width: 64px;
+        height: 64px;
+        background-size: 100%;
+        border-radius: 10px;
+        transition: 1s;
+        border-radius: 150px;
+        z-index: 1;
+    }
+
+        .icon_whatsapp:hover {
+            background-image: url(../ima/icon_whats_enviar.jpg);
+            transition: 1s;
+            border-radius: 150px;
+        }
+
+        .icon_whatsapp > span {
+            display: none;
+            float: left;
+            width: 180px;
+            margin-left: -190px;
+            margin-top: 5px;
+            font-size: 16px;
+            font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            background: #dcf8c6;
+            color: #262626;
+            text-align: -webkit-center;
+            height: 51px;
+            padding-top: 12px;
+            border-radius: 20px;
+        }
+    
+    .icon_whatsapp:hover > span {
+        display: block;
+    }
+        
+        
+        #icon_whatsapp {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+
+
+        
+    a #stilolink{
+        
+        text-decoration: none;
+    font-size: 78px;
+    margin-top:  -6px;
+    position:  relative;
+    top: -34px;
+    font-size: 39px;
+    }
+
+
+	
+		#quem_somos{
+			    width: 100%;
+				font-family: Serif;
+				margin: auto;
+				font-size: 23px;
+                padding:50px;
+                background-color: #fff;
+				
+        }
+
+        #quem_somos2{
+            width: 1024px;
+            margin: auto;
+        }
+        
+
+        #quem_somos:hover p{
+            transition: .5s;
+
+            color: #7f7f7f;
+
+        }
+
+
+		#quem_somos p{
+			font-family: Serif;
+            color: #fff;
+            transition: 9999999999999s;
+        }
+        
+        #quem_somos:hover #cor{
+            transition: .5s;
+			color: #7030a0;
+        }
+    
+        
+        
+		#quem_somos:hover h1{
+            transition: .5s;
+			font-family: Serif;
+			color: #7030a0;
+        }
+        
+        #quem_somos h1{
+            transition: 99999999995s;
+			font-family: Serif;
+			color: #fff;
+		}
+		#quem_somos:hover h1 span{
+            transition: .5s;
+			font-family: Serif;
+			color: #7030a0;
+			font-size:60px;
+        }
+        
+        #quem_somos h1 span{
+            transition: 9999999999999995s;
+			font-family: Serif;
+			color: #fff;
+			font-size:60px;
+		}
+
+
+
+
+
+}

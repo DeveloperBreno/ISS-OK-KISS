@@ -1,0 +1,128 @@
+﻿@media only screen and (max-width: 1024px) and (min-width: 501px){
+
+
+
+
+
+body{
+	margin: 0px auto;
+	padding: 0px;
+	float: left;
+	width: 100%;
+    position: relative;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+
+div.menu{
+
+display: none;
+
+}
+
+.logo{
+    border-bottom: 1px solid #7030a0;
+
+}
+
+
+
+	
+#quem_somos{
+    width: 100%;
+    font-family: Serif;
+    margin: auto;
+    font-size: 23px;
+    padding:0px 10px 20px 10px;
+    
+}
+#quem_somos p{
+font-family: Serif;
+color: #7f7f7f;
+}
+#quem_somos h1{
+font-family: Serif;
+color: #7030a0;
+}
+#quem_somos h1 span{
+font-family: Serif;
+color: #7030a0;
+font-size:60px;
+}
+
+
+
+
+
+.icon_whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-image: url(../ima/icon_whats.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    border-radius: 10px;
+    transition: 1s;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+    .icon_whatsapp:hover {
+        background-image: url(../ima/icon_whats_enviar.jpg);
+        transition: 1s;
+        border-radius: 150px;
+    }
+
+    .icon_whatsapp > span {
+        display: none;
+        float: left;
+        width: 180px;
+        margin-left: -190px;
+        margin-top: 5px;
+        font-size: 16px;
+        font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        background: #dcf8c6;
+        color: #262626;
+        text-align: -webkit-center;
+        height: 51px;
+        padding-top: 12px;
+        border-radius: 20px;
+    }
+
+.icon_whatsapp:hover > span {
+    display: block;
+}
+    
+    
+    #icon_whatsapp {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+
+    
+    a #stilolink{
+        
+        text-decoration: none;
+    width: 0px;
+    height: 0px;
+
+    }
+
+    #myBtn{
+
+        display: none;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    .apenas_mobile{
+    	display: none;
+    }
+
+
+}

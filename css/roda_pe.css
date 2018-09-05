@@ -1,0 +1,311 @@
+/* desktop */
+
+@media only screen and (max-width: 999999px) and (min-width: 1025px) {
+    
+    .roda_pe{
+    float: left;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+    bottom: 0px;
+}
+
+.imagem_roda_pe{
+
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 20px;
+    float: left;
+
+
+}
+
+
+.conteudo_roda_pe{
+    background-color: #fff;
+    float: left;
+    width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+
+.contato_campo_ms_em{
+	float: left;
+	width: 610px;
+}
+
+input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: left;
+    font-size: 18px;
+    background-color: #fff;
+    color: #7030a0;
+}
+
+
+input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
+    background-color: #7030a0;
+    color: #fff;
+    font-weight: bold;
+}
+textarea{
+	width: 600px;
+}
+
+
+
+input[type=submit] {
+        padding: 5px 15px;
+    background: #7f7f7f;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    transition: .5s;
+}
+
+input[type=submit]:hover{
+    background-color: #7030a0;
+    transition: .5s;
+}
+
+
+.reservado{
+    font-weight: bold;
+
+    width: 100%;
+    color: #7030a0;
+    float: left;
+    text-align: center;
+    height: 30px;   
+}
+
+
+#fb{
+    float: right;
+    width: 200px;
+}
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 501px){
+
+
+.roda_pe{
+    float: left;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+    bottom: 0px;
+}
+
+.imagem_roda_pe{
+
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 20px;
+    float: left;
+
+
+}
+
+
+.conteudo_roda_pe{
+    background-color: #fff;
+    float: left;
+    width: 98%;
+    text-align: center;
+    padding: 0px 1%
+}
+
+
+.contato_campo_ms_em{
+    float: left;
+    width: 100%;
+}
+
+input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: left;
+    font-size: 18px;
+    background-color: #fff;
+    color: #7030a0;
+}
+
+
+input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
+    background-color: #7030a0;
+    color: #fff;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+}
+
+
+
+input[type=submit] {
+        padding: 5px 15px;
+    background: #7f7f7f;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    transition: .5s;
+}
+
+input[type=submit]:hover{
+    background-color: #7030a0;
+    transition: .5s;
+}
+
+
+.reservado{
+    font-weight: bold;
+
+    width: 100%;
+    color: #7030a0;
+    float: left;
+    text-align: center;
+    height: 30px;   
+}
+
+
+#fb{
+    float: right;
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width: 500px) and (min-width: 0px){
+
+
+.roda_pe{
+    float: left;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+    bottom: 0px;
+}
+
+.imagem_roda_pe{
+
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 20px;
+    float: left;
+
+
+}
+
+
+.conteudo_roda_pe{
+    background-color: #fff;
+    float: left;
+    width: 98%;
+	text-align: center;
+	padding: 0px 1%
+}
+
+
+.contato_campo_ms_em{
+	float: left;
+	width: 100%;
+}
+
+input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: left;
+    font-size: 18px;
+    background-color: #fff;
+    color: #7030a0;
+}
+
+
+input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
+    background-color: #7030a0;
+    color: #fff;
+    font-weight: bold;
+}
+textarea{
+	width: 100%;
+}
+
+
+
+input[type=submit] {
+        padding: 5px 15px;
+    background: #7f7f7f;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    transition: .5s;
+}
+
+input[type=submit]:hover{
+    background-color: #7030a0;
+    transition: .5s;
+}
+
+
+.reservado{
+    font-weight: bold;
+
+    width: 100%;
+    color: #7030a0;
+    float: left;
+    text-align: center;
+    height: 30px;   
+}
+
+
+#fb{
+    float: right;
+    width: 100%;
+}
+
+}
