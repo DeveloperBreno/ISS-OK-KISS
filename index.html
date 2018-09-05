@@ -1,7 +1,6 @@
+﻿
 
-<!DOCTYPE html>
-
-
+<html>
 <head>
 
     <title>ISS OR KISS</title>
@@ -1655,11 +1654,10 @@
 					<input type="email" name="email" placeholder="E-mail" maxlength="100" required> 
 					
 				   
-					<input type="tel"   pattern="^\d{4}-\d{3}-\d{4}$" type="number" maxlength="10" placeholder="Telefone"   size="20" name="telefone" >
+					<input type="number"   type="number" maxlength="10" placeholder="Telefone"   size="20" name="telefone" >
 
 
-					<input type="tel" maxlength="11" placeholder="Celular" "  required size="20"
-						name="celular">
+					<input type="number" maxlength="11"  placeholder="Celular" required  name="celular" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" >
 					<textarea name="mensagem" placeholder="Mensagem" required="10" id="mensagem" cols="35" maxlength="255" rows="1" style="
 						height:  120px;
 					"></textarea>
