@@ -80,6 +80,7 @@ html {
 
 .photos div{
     background-position: center;
+	background-repeat: no-repeat;
 
 }
 
