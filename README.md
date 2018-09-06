@@ -1,2 +1,2 @@
-# ISS-OK-KISS
+# ISS-OR-KISS
 WebSite ISS OR KISS
