@@ -25,10 +25,10 @@
 
 .conteudo_roda_pe{
     background-color: #fff;
-    float: left;
-    width: 100%;
-	text-align: center;
-	padding: 50px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    width: 100px;
 }
 
 
@@ -36,6 +36,35 @@
 	float: left;
 	width: 610px;
 }
+
+
+.contato_campo_ms_em a{
+    text-decoration: none;
+}
+.contato_campo_ms_em a span{
+    display: block;
+    font-size: 17px;
+    background-color: #fff;
+    text-align: center;
+    width: 600px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    transition: .5s;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contato_campo_ms_em:hover > a span{
+
+    background-color: #26d367;
+    transition: .5s;
+    
+
+ 
+}
+
+
 
 input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
     width: 300px;
@@ -196,6 +225,34 @@ input[type=submit]:hover{
     float: right;
     width: 100%;
 }
+
+
+
+.contato_campo_ms_em a{
+    text-decoration: none;
+}
+.contato_campo_ms_em a span{
+    display: block;
+    font-size: 17px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    transition: .5s;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contato_campo_ms_em:hover > a span{
+
+    background-color: #26d367;
+    transition: .5s;
+    
+
+ 
+}
 }
 
 
@@ -306,6 +363,33 @@ input[type=submit]:hover{
 #fb{
     float: right;
     width: 100%;
+}
+
+
+.contato_campo_ms_em a{
+    text-decoration: none;
+}
+.contato_campo_ms_em a span{
+    display: block;
+    font-size: 17px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    transition: .5s;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contato_campo_ms_em:hover > a span{
+
+    background-color: #26d367;
+    transition: .5s;
+    
+
+ 
 }
 
 }
