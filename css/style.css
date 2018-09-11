@@ -86,8 +86,8 @@ html {
 
 .photos div span{
     font-size: 34px;
-    text-shadow: #dfdfdf 0px 0px 4px;
-    color: #666;
+    text-shadow: #000 0px 0px 4px;
+    color: #FFF;
     position: relative;
     top: 512px;
     
@@ -112,6 +112,18 @@ html {
 
 .block-4 {
     background-image: url("../sliders/img4.png");
+
+}
+
+
+.block-5 {
+    background-image: url("../sliders/img5.png");
+
+}
+
+
+.block-6 {
+    background-image: url("../sliders/img6.png");
 
 }
 
