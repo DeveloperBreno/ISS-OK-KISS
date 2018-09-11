@@ -13,6 +13,31 @@ html {
 
 }
 
+
+
+
+@media only screen and (max-width: 999999px) and (min-width: 1025px) {
+    .gallery {
+        display: none;
+        width: 0px;
+        height: 0px;
+}
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 501px){
+    .gallery {
+        display: none;
+        width: 0px;
+        height: 0px;
+}
+}
+
+
+/* mobile slider */
+@media handheld, only screen and (max-width: 500px) and (min-width: 0px){
+
+
 .gallery {
     width: 100%;
     float: left;
@@ -85,7 +110,7 @@ html {
 }
 
 .photos div span{
-    font-size: 34px;
+    font-size: 30px;
     text-shadow: #000 0px 0px 4px;
     color: #FFF;
     position: relative;
@@ -126,4 +151,4 @@ html {
     background-image: url("../sliders/img6.png");
 
 }
-
+}
