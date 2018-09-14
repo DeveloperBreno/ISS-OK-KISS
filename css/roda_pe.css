@@ -1,262 +1,303 @@
 /* desktop */
 
 @media only screen and (max-width: 999999px) and (min-width: 1025px) {
-    
-    .roda_pe{
-    float: left;
-    width: 100%;
-    margin: auto;
-    position: relative;
-    
-    bottom: 0px;
-}
 
-.imagem_roda_pe{
+    .roda_pe {
+        float: left;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        background-color: #333;
+        bottom: 0px;
+        background-image: url(../ima/issorkiss_roda_pe.png);
+        background-position: center 106px;
+        background-repeat: no-repeat;
+        background-size: 1000px;
 
-    width: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 20px;
-    float: left;
+    }
 
-
-}
-
-
-.conteudo_roda_pe{
-    background-color: #fff;
-    text-align: center;
-
-    margin: auto;
-    width: 100px;
-}
+    .imagem_roda_pe {
+        width: 100%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 20px;
+        float: left;
+    }
 
 
-.contato_campo_ms_em{
-	float: left;
-	width: 610px;
-}
+    .conteudo_roda_pe {
+        background-color: #fff0;
+        text-align: center;
+        margin: auto;
+        width: 1000px;
+        padding: 50px 100px;
+    }
 
 
-.contato_campo_ms_em a{
-    text-decoration: none;
-}
-.contato_campo_ms_em a span{
-    display: block;
-    font-size: 17px;
-    background-color: #fff;
-    text-align: center;
-    width: 600px;
-    padding: 10px 0px;
-    border-radius: 10px;
-    color: #fff;
-    position: relative;
-    transition: .5s;
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.contato_campo_ms_em:hover > a span{
-
-    background-color: #26d367;
-    transition: .5s;
-    
-
- 
-}
+    .contato_campo_ms_em {
+        float: right;
+        width: 601px;
+    }
 
 
+        .contato_campo_ms_em a {
+            text-decoration: none;
+        }
 
-input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
-    width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    float: left;
-    font-size: 18px;
-    background-color: #fff;
-    color: #7030a0;
-	border: 1px solid #7030a0;
-}
+            .contato_campo_ms_em a span {
+                display: block;
+                font-size: 17px;
+                background-color: rgba(255, 255, 255, 0);
+                text-align: center;
+                width: 600px;
+                padding: 10px 0px;
+                border-radius: 10px;
+                color: #333;
+                position: relative;
+                transition: .5s;
+                font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
 
-
-input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
-    background-color: #7030a0;
-    color: #fff;
-    font-weight: bold;
-	border: 1px solid #7030a0;
-}
-textarea{
-	width: 600px;
-}
+        .contato_campo_ms_em:hover > a span {
+            background-color: #26d367;
+            transition: .5s;
+        }
 
 
 
-input[type=submit] {
+    input[type=text], input[type=number], input[type=email], input[type=tel], textarea {
+        width: 300px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        float: left;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0);
+        color: #7030a0;
+        border: 1px solid #7030a0;
+    }
+
+
+        input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus {
+            background-color: #7030a0;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid #7030a0;
+        }
+
+    textarea {
+        width: 600px;
+    }
+
+
+
+    input[type=submit] {
         padding: 5px 15px;
-    background: #7f7f7f;
-    border: 0 none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: auto;
-    width: 200px;
+        background: #00000000;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: auto;
+        width: 200px;
+        text-align: center;
+        color: #ffffff;
+        font-family: arial;
+        font-size: 20px;
+        transition: .5s;
+        border: solid 1px #7030a0;
+    }
+
+        input[type=submit]:hover {
+            background-color: #7030a0;
+            transition: .5s;
+        }
+
+
+    .reservado {
+        font-weight: bold;
+        width: 100%;
+        color: #7030a0;
+        float: left;
+        text-align: center;
+        height: 30px;
+        margin: 50px;
+    }
+
+
+    #fb {
+        float: right;
+        width: 200px;
+    }
+
+    .col-lg-3 {
+        float: left;
+        position: relative;
+        background: #ccc0;
+        width: 181px;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+
+        .col-lg-3 ul li a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+
+    .theme-light-orange {
+        color: #7030a0 !important;
+        border-color: #F9B234 !important;
+        font-size: 24px;
+    }
+
+
+    .footer ul li {
+        font-size: 14px;
+        font-weight: 400;
+        list-style: none;
+        padding: .3rem 0;
+        list-style-type: circle;
+    }
+
+    .col-lg-3 ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+
+    .footer ul li a {
+        color: #ccc;
+        text-decoration: none;
+        
+    }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 501px) {
+
+
+    .roda_pe {
+        float: left;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        
+        bottom: 0px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(#fff, #333); /* Standard syntax (must be last) */
+    }
+
+    .imagem_roda_pe {
+        width: 100%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 20px;
+        float: left;
+    }
+
+
+    .conteudo_roda_pe {
+        background-color: #fff0;
     text-align: center;
-    color: #fff;
-    font-family: arial;
-    font-size: 20px;
-    transition: .5s;
-}
-
-input[type=submit]:hover{
-    background-color: #7030a0;
-    transition: .5s;
-}
-
-
-.reservado{
-    font-weight: bold;
-
-    width: 100%;
-    color: #7030a0;
-    float: left;
-    text-align: center;
-    height: 30px;   
-}
-
-
-#fb{
-    float: right;
-    width: 200px;
-}
-}
-
-
-@media only screen and (max-width: 1024px) and (min-width: 501px){
-
-
-.roda_pe{
-    float: left;
-    width: 100%;
     margin: auto;
+    width: 100%;
     position: relative;
-    
-    bottom: 0px;
-}
-
-.imagem_roda_pe{
-
-    width: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 20px;
     float: left;
+    padding: 50px 100px;
+    }
 
 
-}
+    .contato_campo_ms_em {
+        float: left;
+        width: 100%;
+    }
+
+    input[type=text], input[type=number], input[type=email], input[type=tel], textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        float: left;
+        font-size: 18px;
+        background-color: #fff;
+        color: #7030a0;
+        border: 1px solid #7030a0;
+    }
 
 
-.conteudo_roda_pe{
-    background-color: #fff;
-    float: left;
-    width: 98%;
-    text-align: center;
-    padding: 0px 1%
-}
+        input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus {
+            background-color: #7030a0;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid #7030a0;
+        }
 
-
-.contato_campo_ms_em{
-    float: left;
-    width: 100%;
-}
-
-input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    float: left;
-    font-size: 18px;
-    background-color: #fff;
-    color: #7030a0;
-	border: 1px solid #7030a0;
-}
-
-
-input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
-    background-color: #7030a0;
-    color: #fff;
-    font-weight: bold;
-	border: 1px solid #7030a0;
-}
-textarea{
-    width: 100%;
-}
+    textarea {
+        width: 100%;
+    }
 
 
 
-input[type=submit] {
+    input[type=submit] {
         padding: 5px 15px;
-    background: #7f7f7f;
-    border: 0 none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-family: arial;
-    font-size: 20px;
-    transition: .5s;
-}
+        background: #7f7f7f;
+        border: 0 none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-family: arial;
+        font-size: 20px;
+        transition: .5s;
+    }
 
-input[type=submit]:hover{
-    background-color: #7030a0;
-    transition: .5s;
-}
-
-
-.reservado{
-    font-weight: bold;
-
-    width: 100%;
-    color: #7030a0;
-    float: left;
-    text-align: center;
-    height: 30px;   
-}
+        input[type=submit]:hover {
+            background-color: #7030a0;
+            transition: .5s;
+        }
 
 
-#fb{
-    float: right;
-    width: 100%;
-}
+    .reservado {
+        font-weight: bold;
+        width: 100%;
+        color: #7030a0;
+        float: left;
+        text-align: center;
+        height: 30px;
+    }
+
+
+    #fb {
+        float: right;
+        width: 100%;
+    }
 
 
 
-.contato_campo_ms_em a{
-    text-decoration: none;
-}
-.contato_campo_ms_em a span{
-    display: block;
-    font-size: 17px;
-    background-color: #fff;
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px;
-    border-radius: 10px;
-    color: #fff;
-    position: relative;
-    transition: .5s;
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+    .contato_campo_ms_em a {
+        text-decoration: none;
+    }
 
-.contato_campo_ms_em:hover > a span{
+        .contato_campo_ms_em a span {
+            display: block;
+            font-size: 17px;
+            background-color: #fff;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0px;
+            border-radius: 10px;
+            color: #fff;
+            position: relative;
+            transition: .5s;
+            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
 
-    background-color: #26d367;
-    transition: .5s;
-    
-
- 
-}
+    .contato_campo_ms_em:hover > a span {
+        background-color: #26d367;
+        transition: .5s;
+    }
 }
 
 
@@ -271,131 +312,124 @@ input[type=submit]:hover{
 
 
 
-@media handheld, only screen and (max-width: 500px) and (min-width: 0px){
+@media handheld, only screen and (max-width: 500px) and (min-width: 0px) {
 
 
-.roda_pe{
-    float: left;
-    width: 100%;
-    margin: auto;
-    position: relative;
-    
-    bottom: 0px;
-}
+    .roda_pe {
+        float: left;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        background-color: #333;
+        bottom: 0px;
+    }
 
-.imagem_roda_pe{
-
-    width: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 20px;
-    float: left;
-
-
-}
+    .imagem_roda_pe {
+        width: 100%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 20px;
+        float: left;
+    }
 
 
-.conteudo_roda_pe{
-    background-color: #fff;
-    float: left;
-    width: 98%;
-	text-align: center;
-	padding: 0px 1%
-}
+    .conteudo_roda_pe {
+        background-color: #fff;
+        float: left;
+        width: 98%;
+        text-align: center;
+        padding: 0px 1%
+    }
 
 
-.contato_campo_ms_em{
-	float: left;
-	width: 100%;
-}
+    .contato_campo_ms_em {
+        float: left;
+        width: 100%;
+    }
 
-input[type=text] , input[type=number] ,  input[type=email],input[type=tel], textarea{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    float: left;
-    font-size: 18px;
-    background-color: #fff;
-    color: #7030a0;
-	border: 1px solid #7030a0;
-}
+    input[type=text], input[type=number], input[type=email], input[type=tel], textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        float: left;
+        font-size: 18px;
+        background-color: #fff;
+        color: #7030a0;
+        border: 1px solid #7030a0;
+    }
 
 
-input[type=text]:focus , input[type=number]:focus ,  input[type=email]:focus,input[type=tel]:focus, textarea:focus{
-    background-color: #7030a0;
-    color: #fff;
-    font-weight: bold;
-	border: 1px solid #7030a0;
-}
-textarea{
-	width: 100%;
-}
+        input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus {
+            background-color: #7030a0;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid #7030a0;
+        }
+
+    textarea {
+        width: 100%;
+    }
 
 
 
-input[type=submit] {
+    input[type=submit] {
         padding: 5px 15px;
-    background: #7f7f7f;
-    border: 0 none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-family: arial;
-    font-size: 20px;
-    transition: .5s;
-}
+        background: #7f7f7f;
+        border: 0 none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-family: arial;
+        font-size: 20px;
+        transition: .5s;
+    }
 
-input[type=submit]:hover{
-    background-color: #7030a0;
-    transition: .5s;
-}
-
-
-.reservado{
-    font-weight: bold;
-
-    width: 100%;
-    color: #7030a0;
-    float: left;
-    text-align: center;
-    height: 30px;   
-}
+        input[type=submit]:hover {
+            background-color: #7030a0;
+            transition: .5s;
+        }
 
 
-#fb{
-    float: right;
-    width: 100%;
-}
+    .reservado {
+        font-weight: bold;
+        width: 100%;
+        color: #7030a0;
+        float: left;
+        text-align: center;
+        height: 30px;
+    }
 
 
-.contato_campo_ms_em a{
-    text-decoration: none;
-}
-.contato_campo_ms_em a span{
-    display: block;
-    font-size: 17px;
-    background-color: #fff;
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px;
-    border-radius: 10px;
-    color: #fff;
-    position: relative;
-    transition: .5s;
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+    #fb {
+        float: right;
+        width: 100%;
+    }
 
-.contato_campo_ms_em:hover > a span{
 
-    background-color: #26d367;
-    transition: .5s;
-    
+    .contato_campo_ms_em a {
+        text-decoration: none;
+    }
 
- 
-}
+        .contato_campo_ms_em a span {
+            display: block;
+            font-size: 17px;
+            background-color: #fff;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0px;
+            border-radius: 10px;
+            color: #fff;
+            position: relative;
+            transition: .5s;
+            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
 
+    .contato_campo_ms_em:hover > a span {
+        background-color: #26d367;
+        transition: .5s;
+    }
 }
