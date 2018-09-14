@@ -23,6 +23,13 @@
 
 }
 
+.espaco_de_menu{
+    float: left;
+    position: relative;
+    height: 54px;
+    width: 100%;
+}
+
 ::selection {
     background: #7030a0;
     color: #fff;
