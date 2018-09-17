@@ -176,16 +176,33 @@
 
 @media only screen and (max-width: 1024px) and (min-width: 501px) {
 
+.col-lg-3 ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.col-lg-3 ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.theme-light-orange {
+    color: #7030a0 !important;
+    border-color: #F9B234 !important;
+    font-size: 24px;
+}
 
     .roda_pe {
         float: left;
         width: 100%;
         margin: auto;
         position: relative;
-        
+        background-image: url(../ima/issorkiss_roda_pe.png);
         bottom: 0px;
-        background-color: red; /* For browsers that do not support gradients */
-        background-image: linear-gradient(#fff, #333); /* Standard syntax (must be last) */
+        background-color: #1b1b1b; 
+            background-position: center 106px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-attachment: fixed;
     }
 
     .imagem_roda_pe {
@@ -220,7 +237,7 @@
         box-sizing: border-box;
         float: left;
         font-size: 18px;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0);
         color: #7030a0;
         border: 1px solid #7030a0;
     }
@@ -266,7 +283,7 @@
         color: #7030a0;
         float: left;
         text-align: center;
-        height: 30px;
+        height: 50px;
     }
 
 
@@ -283,21 +300,22 @@
 
         .contato_campo_ms_em a span {
             display: block;
-            font-size: 17px;
-            background-color: #fff;
-            text-align: center;
-            width: 100%;
-            padding: 10px 0px;
-            border-radius: 10px;
-            color: #fff;
-            position: relative;
-            transition: .5s;
-            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff0;
+    position: relative;
+    transition: .5s;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
         }
 
     .contato_campo_ms_em:hover > a span {
         background-color: #26d367;
         transition: .5s;
+		color:#fff;
     }
 }
 
@@ -317,12 +335,17 @@
 
 
     .roda_pe {
-        float: left;
-        width: 100%;
-        margin: auto;
-        position: relative;
-        background-color: #333;
-        bottom: 0px;
+            float: left;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-image: url(../ima/issorkiss_roda_pe.png);
+    bottom: 0px;
+    background-color: #1b1b1b;
+    background-position: center 106px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
     }
 
     .imagem_roda_pe {
@@ -335,11 +358,10 @@
 
 
     .conteudo_roda_pe {
-        background-color: #fff;
-        float: left;
-        width: 98%;
-        text-align: center;
-        padding: 0px 1%
+            background-color: #fff0;
+    float: left;
+    width: 100%;
+    text-align: center;
     }
 
 
@@ -355,7 +377,7 @@
         box-sizing: border-box;
         float: left;
         font-size: 18px;
-        background-color: #fff;
+        background-color: #fff0;
         color: #7030a0;
         border: 1px solid #7030a0;
     }
@@ -401,7 +423,7 @@
         color: #7030a0;
         float: left;
         text-align: center;
-        height: 30px;
+        height: 50px;
     }
 
 
@@ -417,20 +439,34 @@
 
         .contato_campo_ms_em a span {
             display: block;
-            font-size: 17px;
-            background-color: #fff;
-            text-align: center;
-            width: 100%;
-            padding: 10px 0px;
-            border-radius: 10px;
-            color: #fff;
-            position: relative;
-            transition: .5s;
-            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: #fff0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #0000;
+    position: relative;
+    transition: .5s;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
         }
 
     .contato_campo_ms_em:hover > a span {
         background-color: #26d367;
         transition: .5s;
+		color: #fff;
     }
+	.col-lg-3 ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.theme-light-orange {
+    color: #7030a0 !important;
+    border-color: #F9B234 !important;
+    font-size: 24px;
+}
+	.col-lg-3 ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
 }
