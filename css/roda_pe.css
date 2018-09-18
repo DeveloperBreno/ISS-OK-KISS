@@ -7,7 +7,7 @@
         width: 100%;
         margin: auto;
         position: relative;
-        background-color: #333;
+        background-color: #1b1b1b;
         bottom: 0px;
         background-image: url(../ima/issorkiss_roda_pe.png);
         background-position: center 106px;
@@ -31,7 +31,7 @@
         text-align: center;
         margin: auto;
         width: 1000px;
-        padding: 50px 100px;
+        padding: 130px 100px;
     }
 
 
@@ -53,7 +53,7 @@
                 width: 600px;
                 padding: 10px 0px;
                 border-radius: 10px;
-                color: #333;
+                color: #3330;
                 position: relative;
                 transition: .5s;
                 font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -62,6 +62,7 @@
         .contato_campo_ms_em:hover > a span {
             background-color: #26d367;
             transition: .5s;
+            color: #fff;
         }
 
 
@@ -115,12 +116,11 @@
 
     .reservado {
         font-weight: bold;
-        width: 100%;
-        color: #7030a0;
-        float: left;
-        text-align: center;
-        height: 30px;
-        margin: 50px;
+    width: 100%;
+    color: #7030a0;
+    text-align: center;
+    float: left;
+    height: auto;
     }
 
 
