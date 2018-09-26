@@ -1064,6 +1064,7 @@
                 transition: 0.3s;
                 transition-delay: 0.7s;
                 background: #7030a0;
+				
             }
         }
 
@@ -1150,7 +1151,7 @@
                 padding: 5px;
                 border-radius: 5px;
                 margin-top: 10px;
-                width: 80px;
+                width: 85px;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
 
@@ -1196,24 +1197,29 @@
         @media handheld, only screen and (max-width: 500px) and (min-width: 0px) {
 
 
-
-
+.grafico_principal:hover > h1 {
+                
+                transition: .3s;
+                color: #fff;
+                
+            }
 
             .grafico_principal h1 {
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 color: #7030a0;
                 transition: 9999999999s;
-                text-align: center
+                text-align: center;
+                background: #fff0;
             }
 
-            .grafico_principal {
-                color: #7030a0;
-                background: #fff;
+            .grafico_principal:hover {
+                color: #fff;
+                
             }
 
-                .grafico_principal .ref {
-                    background-color: #fff;
-                    color: #7030a0;
+                .grafico_principal:hover .ref {
+                    
+                    color: #fff;
                     transition: 1s;
                 }
 
@@ -1221,38 +1227,40 @@
             .ref {
                 float: left;
                 text-align: center;
-                color: #fff;
+                color: #7030a0;
                 transition: 999999s;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				padding-left: 5px;
             }
 
 
             .grafico_principal {
                 width: 100%;
                 float: left;
-                height: 600px;
-                background-color: #fff;
+                
+                background-color: #7030a0;
+                padding: 160px 0px 82px 0px;
+
             }
 
             .grafico_auto {
                 width: 100%;
                 height: 300px;
                 margin: auto;
-                margin-top: 50px;
-                padding-left: 5%;
-                margin-bottom: 50px;
+                margin-top: 100px;
+                margin-bottom: 100px;
             }
 
             .predio {
                 float: left;
                 text-align: center;
-                padding: 0px;
+                padding: 0px 10px;
             }
 
             .predio2 {
                 float: left;
                 text-align: center;
-                padding: 0px 10px;
+                padding: 0px 0px;
             }
 
             .grafico_um {
@@ -1272,47 +1280,52 @@
             }
 
             .text_do_grafico {
-                color: #fff;
+                color: #7030a0;
+
                 transition: 999999s;
-                background: #fff;
-                color: #fff;
-                padding: 5px;
+                background: #7030a0;
+                width: 85px;
+                padding: 1px;
                 border-radius: 5px;
                 margin-top: 10px;
-                width: 80px;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
 
-            .grafico_um {
+            .grafico_principal:hover > .grafico_auto .predio .grafico_um {
                 transition: 0.3s;
                 background-position: bottom;
                 transition-delay: 0.3s;
             }
 
-            .text_do_grafico {
-                color: #7030a0;
+            .grafico_principal:hover > .grafico_auto .predio .text_do_grafico {
+                color: #fff;
                 padding: 5px;
                 border-radius: 5px;
                 transition: 0.3s;
+                background: #7030a0;
+				width: 85px;
             }
 
             .grafico_auto .predio2 .grafico_um {
                 height: 260px;
             }
 
-            .grafico_um {
+            .grafico_principal:hover > .grafico_auto .predio2 .grafico_um {
                 transition: 0.8s;
                 background-position: bottom;
                 transition-delay: 0.7s;
             }
 
-            .text_do_grafico {
-                color: #7030a0;
+            .grafico_principal:hover > .grafico_auto .predio2 .text_do_grafico {
+                color: #fff;
                 padding: 5px;
                 border-radius: 5px;
                 transition: 0.3s;
                 transition-delay: 0.7s;
+                background: #7030a0;
+				width: 85px;
             }
+        
         }
     </style>
     <!-- fim do estilo do grafico -->
